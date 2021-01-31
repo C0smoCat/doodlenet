@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>doodlenet</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/ml5.min.js"></script>
+        <script type="module" src="js/script.js"></script>
+    </head>
+    <body>
+        <canvas id="canvas" width="400" height="400">
+            <p>Ваш браузер не поддерживает Canvas</p>
+        </canvas>
+        <div>
+            <pre id="status">Загрузка...</pre>
+            <div>
+                <label for="lineWidth">Ширина линии</label>
+                <div>
+                    <input id="lineWidth" type="range" min="1" max="50" value="20">
+                </div>
+            </div>
+            <button id="clearButton">Очистить</button>
+            <p>
+                <a href="https://quickdraw.withgoogle.com/data" target="_blank">Другие рисунки</a>
+            </p>
+        </div>
+    </body>
+</html>

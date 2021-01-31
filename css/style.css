@@ -1,0 +1,16 @@
+body {
+    background: #bdc6e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    width: 400px;
+    height: 400px;
+    background: white;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 0 #0002;
+}
